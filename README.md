@@ -4,8 +4,6 @@ Compilation, traduzione e addattamento di:
 
 - Probability for Computer Science, D. Forsyth, Springer Nature, 2018
 
-Feel free to contribute!
-
 # Come contribuire
 1. Premere Fork in alto a destra
 2. Selezionare il link del fork che appare nella pagina
@@ -16,3 +14,5 @@ Feel free to contribute!
 7. Premere Open pull request
 8. Scrivere una descrizione delle modifiche e/o aggiunte apportate
 9. Premere su Create pull request
+
+Feel free to contribute! Other students will appreciate!
