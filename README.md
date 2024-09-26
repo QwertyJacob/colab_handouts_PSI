@@ -4,4 +4,4 @@ Compilation, traduzione e addattamento di:
 
 - Probability for Computer Science, D. Forsyth, Springer Nature, 2018
 
-Feel free to contribute!
+Feel free to contribute! Other students will appreciate!
