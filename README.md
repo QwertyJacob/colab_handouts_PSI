@@ -15,5 +15,6 @@ Compilation, traduzione e addattamento di:
 8. Scrivere una descrizione delle modifiche e/o aggiunte apportate
 9. Premere su _Create pull request_
 10. Le modifiche verranno poi accorpate dai responsabili della repo ;)
+11. *Tieni il tuo fork sincronizzato!*
 
 Feel free to contribute! Other students will appreciate!
