@@ -1,8 +1,10 @@
 # colab_handouts_PSI
-Dispense Google Colab, corso PSI 2425, Università degli Studi dell'Insubria
-Compilation, traduzione e addattamento di:
+Dispense Google Colab, corso PSI 2425, Università degli Studi dell'Insubria.
+
+Contiene parti che sono traduzione e addattamento di:
 
 - Probability for Computer Science, D. Forsyth, Springer Nature, 2018
+- Probability for Computer Science (CS109 Course Reader), C. Piech, Standford, 2024
 
 # Come contribuire
 1. Premere _Fork_ in alto a destra
