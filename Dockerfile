@@ -36,8 +36,11 @@ RUN git clone https://github.com/QwertyJacob/colab_handouts_PSI /manim/colab_han
 ARG NB_USER=manimuser
 USER ${NB_USER}
 
+# give permission to manimuser
+RUN chown manimuser:manimuser /manim
+
 # Set working directory
-WORKDIR /manim/colab_handouts_PSI
+WORKDIR /manim
 
 # Optional: expose port if running locally
 EXPOSE 8888
