@@ -23,3 +23,5 @@ RUN chown -R manimuser:manimuser /manim/colab_handouts_PSI
 ARG NB_USER=manimuser 
     
 USER ${NB_USER}
+
+# COPY --chown=manimuser:manimuser ./data /manim/colab_handouts_PSI/data
