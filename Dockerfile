@@ -32,11 +32,12 @@ ARG CACHE_BUST=1
 # Clone your repo (as root) into /manim
 RUN git clone https://github.com/QwertyJacob/colab_handouts_PSI /manim/colab_handouts_PSI
 
-# Set working directory
-WORKDIR /manim
 
-# Switch to Binder default user
-USER jovyan
+ARG NB_USER=manimuser
+USER ${NB_USER}
+
+# Set working directory
+WORKDIR /manim/colab_handouts_PSI
 
 # Optional: expose port if running locally
 EXPOSE 8888
