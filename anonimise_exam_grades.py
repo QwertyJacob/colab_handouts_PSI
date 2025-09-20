@@ -42,5 +42,13 @@ columns_to_delete = ['#', 'Unnamed: 1', 'Cognome', 'Nome', 'CFU',
 
 df = df.drop(columns=columns_to_delete, axis=1)
 
+# lets anonnymize "MAtricola" assigning a mapping
+mapping = {}
+for i, row in enumerate(df['Matricola'].unique()):
+    mapping[row] = i
+
+df['Matricola'] = df['Matricola'].map(mapping)
+
+
 # save as psi_grades.csv
 df.to_csv('data/psi_grades.csv', index=False)
