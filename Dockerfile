@@ -2,6 +2,7 @@ FROM manimcommunity/manim:v0.19.0
 
 USER root
 
+RUN pip install --upgrade pip
 RUN pip install notebook matplotlib-venn
 
 # Install git and clean up
