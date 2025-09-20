@@ -15,6 +15,8 @@ ARG CACHE_BUST=1
 
 RUN git clone https://github.com/QwertyJacob/colab_handouts_PSI
 
+RUN pip install -r /manim/colab_handouts_PSI/requirements.txt
+
 RUN chown -R manimuser:manimuser /manim/colab_handouts_PSI
 
 ARG NB_USER=manimuser 
